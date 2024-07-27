@@ -1,0 +1,126 @@
+:root {
+    --color-primario: #E5E5E5;
+    --color-secundario: #134B70;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 48px;
+    width: 120px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+
+.main__section {
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.escribir {
+    width: 100%;
+    height: 150px;
+    border-radius: 2px;
+    color: darkblue;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#encriptar {
+    background-color: #134B70;
+    color: #fff;
+}
+
+#desencriptar {
+    background-color: #E5E5E5;
+    color: #134B70;
+    border: 1px solid #134B70;
+}
+
+.note {
+    margin-top: 10px;
+    font-size: 12px;
+    color: gray;
+}
+
+.contenedor {
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 3px solid darkblue;
+    background-color: #fff;
+    border-radius: 32px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contenedor__imagen1 {
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 18px;
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.instructions {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#copiar {
+    width: 150px;
+    height: 40px;
+    background-color: #134B70;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
